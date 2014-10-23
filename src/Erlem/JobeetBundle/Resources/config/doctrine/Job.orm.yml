@@ -1,5 +1,6 @@
 Erlem\JobeetBundle\Entity\Job:
     type: entity
+    repositoryClass: Erlem\JobeetBundle\Repository\JobRepository
     table: job
     id:
         id:
