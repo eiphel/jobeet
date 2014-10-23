@@ -60,5 +60,5 @@ Erlem\JobeetBundle\Entity\Job:
                 name: category_id
                 referencedColumnName: id
     lifecycleCallbacks:
-        prePersist: [ setCreatedAtValue, setExpiresAtValue]
+        prePersist: [ setCreatedAtValue ]
         preUpdate: [ setUpdatedAtValue ]
